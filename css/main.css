@@ -71,8 +71,38 @@ figcaption {
 
 @media only screen and (min-width: 30em) {
 
+.dino-primary {
+    position: relative;
+}
+
+.dino-primary figcaption {
+  position: absolute;
+  background-color: rgba(0,0,0,0.3);
+}
+    
 .dino-secondary {
     float: left;
     width: 50%;
+}
+}
+
+@media only screen and (min-width: 50em) {
+
+.dino-primary {
+    float: left;
+    position: relative;
+    width: 33.333%;
+    display: inline-block;
+}
+
+.dino-primary figcaption {
+    float: none;
+    position: relative;
+}
+
+.dino-secondary {
+    float: right;
+    display: inline-block;
+    width: 33.333%
 }
 }
