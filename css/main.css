@@ -89,6 +89,7 @@ figcaption {
 @media only screen and (min-width: 50em) {
 
 .dino-primary {
+    overflow: hidden;
     float: left;
     position: relative;
     width: 33.333%;
