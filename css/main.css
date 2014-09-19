@@ -109,22 +109,11 @@ figcaption {
 
 @media only screen and (min-width: 80em) {
 
-.dino-primary {
-    float: left;
-    position: relative;
-    width: 33.333%;
-    display: inline-block;
-}
-
 .dino-primary figcaption {
-    float: none;
     position: absolute;
 }
 
 .dino-secondary {
-    float: right;
-    display: inline-block;
-    width: 33.333%;
     position: relative;
 }
 
