@@ -68,3 +68,11 @@ figcaption {
 /* ====================================== */
 /*     DON'T TOUCH THE CSS ABOVE HERE     */
 /* ====================================== */
+
+@media only screen and (min-width: 30em) {
+
+.dino-secondary {
+    float: left;
+    width: 50%;
+}
+}
